@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
-:root {
+:root { 
   --primary-black-color: #212121;
   --primary-text-color: #757575;
   --primary-white-color: #ffffff;
@@ -58,7 +58,7 @@ body {
   text-decoration: none;
 }
 .logo-black {
-  color: var(--logo-black);
+  color: var(--logo-black); */
 }
 .logo-white {
   color: var(--primary-white-color);
@@ -81,7 +81,7 @@ a{
   text-decoration: none;
 }
 /* ----------- Header section ----------- */
-header {
+ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,7 +142,7 @@ header nav .nav-menu .page {
   color: var(--accent-color);
 }
 /* ----------- Hero section ----------- */
-.hero {
+ .hero {
   background-color: var(--primary-black-color);
   padding: 200px var(--container-padding);
   text-align: center;
@@ -155,7 +155,7 @@ header nav .nav-menu .page {
   text-transform: capitalize;
 }
 /* ----------- Benefits section ----------- */
-.benefits {
+ .benefits {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -165,13 +165,13 @@ header nav .nav-menu .page {
   list-style: none;
   width: 240px;
 }
-.benefits li .title {
+.benefits li .title { 
   height: 50px;
   text-transform: uppercase;
   color: var(--primary-black-color);
-}
+} 
 /* ----------- What we do----------- */
-.what-we-do-section .container ul {
+ .what-we-do-section .container ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -180,18 +180,18 @@ header nav .nav-menu .page {
 .what-we-do-section .container ul li {
   list-style: none;
   width: 360px;
-}
+} 
 /*----------- Team section -----------*/
-.team-section {
+ .team-section { 
   background-color: var(--background-gray);
 }
-.team {
+ .team { 
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-end;
 }
-.team li {
+.team li { 
   background-color: var(--primary-white-color);
   text-align: center;
   list-style: none;
@@ -200,11 +200,11 @@ header nav .nav-menu .page {
 .team li h3 {
   margin: 20px 0 10px 0;
 }
-.team li p {
+.team li p { 
   margin-bottom: 30px;
 }
 /*----------- Portfolio section -----------*/
-.portfolio .menu {
+.portfolio .menu { 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,7 +212,7 @@ header nav .nav-menu .page {
   margin-bottom: 50px;
   list-style: none;
 }
-.portfolio .menu li button {
+ .portfolio .menu li button {
   border: none;
   outline: none;
   color: var(--primary-black-color);
@@ -230,16 +230,16 @@ header nav .nav-menu .page {
 .portfolio .menu li button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-}
+} 
 
-.portfolio .cards{
+ .portfolio .cards{ 
   justify-content: space-between;
   flex-wrap: wrap;
  
   display: flex;
 }
 
-.portfolio .cards li{
+ .portfolio .cards li{ 
   margin-bottom: 20px; 
   width: 360px;
 }
@@ -259,8 +259,8 @@ footer {
 }
 address ul {
   list-style: none;
-}
-address .contact {
+} 
+address .contact {  
   display: block;
   color: var(--text-white-opacity);
   font-style: normal;
@@ -270,6 +270,6 @@ address .contact {
   text-decoration: none;
   padding: 5px 0;
 }
-address .contact:hover {
+address .contact:hover { 
   color: var(--primary-white-color);
 }
